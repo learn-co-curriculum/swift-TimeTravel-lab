@@ -12,6 +12,8 @@
 		5B830BA91DA43D2000BC5FD3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B830BA71DA43D2000BC5FD3 /* Main.storyboard */; };
 		5B830BAB1DA43D2000BC5FD3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B830BAA1DA43D2000BC5FD3 /* Assets.xcassets */; };
 		5B830BAE1DA43D2000BC5FD3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B830BAC1DA43D2000BC5FD3 /* LaunchScreen.storyboard */; };
+		B5B032F41DA447A000572C40 /* Enum.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B032F31DA447A000572C40 /* Enum.swift */; };
+		B5B032F81DA44B8900572C40 /* Spaceship.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B032F71DA44B8900572C40 /* Spaceship.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		5B830BAA1DA43D2000BC5FD3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5B830BAD1DA43D2000BC5FD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5B830BAF1DA43D2000BC5FD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5B032F31DA447A000572C40 /* Enum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Enum.swift; sourceTree = "<group>"; };
+		B5B032F71DA44B8900572C40 /* Spaceship.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Spaceship.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,8 @@
 			isa = PBXGroup;
 			children = (
 				5B830BA51DA43D1F00BC5FD3 /* ViewController.swift */,
+				B5B032F31DA447A000572C40 /* Enum.swift */,
+				B5B032F71DA44B8900572C40 /* Spaceship.swift */,
 				5B830BB51DA43D2F00BC5FD3 /* Supporting Files */,
 			);
 			path = TimeTravel;
@@ -145,7 +151,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5B032F41DA447A000572C40 /* Enum.swift in Sources */,
 				5B830BA61DA43D1F00BC5FD3 /* ViewController.swift in Sources */,
+				B5B032F81DA44B8900572C40 /* Spaceship.swift in Sources */,
 				5B830BA41DA43D1F00BC5FD3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
