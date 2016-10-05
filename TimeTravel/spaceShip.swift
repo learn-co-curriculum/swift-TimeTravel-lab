@@ -10,7 +10,7 @@ import Foundation
 
 class SpaceShip {
     let name: String
-    let speed: Speed = .none
+    var speed: Speed = .none
     var currentPlanet: Planet
     
     var description: String {
@@ -57,7 +57,7 @@ class SpaceShip {
             return false 
         }
         
-        switch self.currentPlanet {
+        switch planet {
             
         case .venus:
             
@@ -120,6 +120,9 @@ class SpaceShip {
         default:
             returnedBool = false
             
+        }
+        if returnedBool {
+            self.currentPlanet = planet
         }
         
         return returnedBool

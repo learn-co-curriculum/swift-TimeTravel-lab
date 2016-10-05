@@ -23,7 +23,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Fast"/>
                                 <connections>
-                                    <action selector="planetSpeed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dCj-j2-MaR"/>
+                                    <action selector="onSpeedButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vLA-mr-XPW"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mAh-3u-epN">
@@ -31,7 +31,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Medium"/>
                                 <connections>
-                                    <action selector="planetSpeed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="836-IH-uOx"/>
+                                    <action selector="onSpeedButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gac-GK-S5T"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o5f-OD-1bg">
@@ -39,7 +39,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Slow"/>
                                 <connections>
-                                    <action selector="planetSpeed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JUc-E1-8jl"/>
+                                    <action selector="onSpeedButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Vq5-YQ-cBT"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Current Planet" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6qw-41-Heo">
@@ -69,6 +69,9 @@
                                 <frame key="frameInset" minX="266" minY="402" width="50" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Uranus"/>
+                                <connections>
+                                    <action selector="planetChosen:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gg7-jT-fZU"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ll9-1a-4Y4">
                                 <frame key="frameInset" minX="105" minY="459" width="59" height="30"/>

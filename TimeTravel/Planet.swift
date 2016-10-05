@@ -10,7 +10,8 @@ import Foundation
 
 enum Planet : Int {
     
-    case mercury = 1
+    case none = 1
+    case mercury
     case venus
     case earth
     case mars
